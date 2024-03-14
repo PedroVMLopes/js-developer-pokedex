@@ -84,6 +84,8 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    text-align: left;
+    text-decoration: none;
 }
 
 .pokemon .number {
@@ -162,4 +164,9 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+.pokemon__Info__btn {
+    border: none;
+
 }
