@@ -73,3 +73,11 @@
 .fairy {
     background-color: #f9aec7;
 }
+
+
+.pokemon .name {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+    background-color: #678fee;
+}
