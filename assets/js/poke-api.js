@@ -14,6 +14,8 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
 
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
 
+    const pokeUrl = `https://pokeapi.co/api/v2/pokemon/${pokemon.number}`;
+
     return pokemon
 }
 

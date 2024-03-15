@@ -169,4 +169,12 @@
 .btnLoadPokemonInformation {
     outline: none;
     border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+button a:-webkit-any-link {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
