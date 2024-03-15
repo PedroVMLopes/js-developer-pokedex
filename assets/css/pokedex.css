@@ -166,7 +166,7 @@
     }
 }
 
-.loadPokemonInformation {
+.btnLoadPokemonInformation {
+    outline: none;
     border: none;
-
 }

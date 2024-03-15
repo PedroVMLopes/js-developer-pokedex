@@ -81,3 +81,12 @@
     margin-bottom: .25rem;
     background-color: #678fee;
 }
+
+.btnLoadPokemonInformation {
+    outline: none;
+    border: none;
+}
+
+.btnPokemonInfo {
+    outline: none;
+}

@@ -9,7 +9,7 @@ let offset = 0;
 
 function convertPokemonToLi(pokemon) {
     return `
-    <button id="loadPokemonInformation" type="button">
+    <button onclick="goToPokemonInfo()" "id="btnLoadPokemonInformation" class="   " type="button">
             <li class="pokemon ${pokemon.type}">
                 <span class="number">#${pokemon.number}</span>
                 <span class="name">${pokemon.name}</span>
@@ -50,7 +50,3 @@ loadMoreButton.addEventListener('click', () => {
 })
 
 
-loadPokemonInformation.addEventListener('click', () => {
-    window.location.href = "pokemonInfo.html";
-
-})
